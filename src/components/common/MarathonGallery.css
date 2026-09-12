@@ -1,0 +1,78 @@
+.marathon-grid-wrapper {
+  padding: 2rem 0;
+}
+
+.marathon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.8rem;
+}
+
+.marathon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 10px 30px rgba(155, 156, 248, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.marathon-card:hover {
+  border-color: var(--indigo-primary);
+  box-shadow: 0 20px 45px rgba(155, 156, 248, 0.25);
+  transform: translateY(-6px);
+}
+
+.marathon-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.marathon-num {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #6366f1;
+  line-height: 1;
+}
+
+.marathon-badge {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: rgba(180, 181, 248, 0.2);
+  border: 1px solid rgba(155, 156, 248, 0.3);
+  border-radius: var(--radius-pill);
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.marathon-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+  color: var(--text-main);
+  line-height: 1.35;
+}
+
+.marathon-desc {
+  font-size: 0.88rem;
+  color: var(--text-sub);
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+
+.marathon-card-footer {
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.marathon-action {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #0284c7;
+  letter-spacing: 0.05em;
+}

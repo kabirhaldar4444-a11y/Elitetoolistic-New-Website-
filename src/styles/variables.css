@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Master Color Hunt Light Pastel Palette */
+  --color-lavender: #9b9bf8;
+  --color-periwinkle: #b4b5f8;
+  --color-sky-cyan: #aae2fd;
+  --color-mint-green: #d9f9df;
+  
+  /* Light Theme Surfaces */
+  --bg-dark: #f6f8fd;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-glass-light: rgba(255, 255, 255, 0.65);
+  --border-glass: rgba(155, 156, 248, 0.22);
+  --border-glass-hover: rgba(155, 156, 248, 0.6);
+
+  /* Primary Accent Colors */
+  --cyan-primary: #0284c7;
+  --cyan-glow: rgba(56, 189, 248, 0.25);
+  --indigo-primary: #6366f1;
+  --indigo-glow: rgba(99, 102, 241, 0.25);
+  --purple-primary: #8b5cf6;
+  --purple-glow: rgba(155, 156, 248, 0.3);
+  
+  /* Text Colors (Crisp Light Mode Slate) */
+  --text-main: #0f172a;
+  --text-sub: #334155;
+  --text-muted: #64748b;
+  --text-accent: #0284c7;
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 4px 14px rgba(155, 156, 248, 0.08);
+  --shadow-md: 0 10px 30px rgba(155, 156, 248, 0.12);
+  --shadow-lg: 0 20px 45px rgba(155, 156, 248, 0.18);
+  --glow-cyan: 0 10px 30px rgba(170, 226, 253, 0.4);
+  --glow-indigo: 0 10px 30px rgba(180, 181, 248, 0.4);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}

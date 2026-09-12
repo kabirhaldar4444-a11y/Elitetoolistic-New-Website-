@@ -1,0 +1,39 @@
+.doc-viewer-page {
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-sub);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: var(--transition-fast);
+}
+
+.back-link:hover {
+  color: #4f46e5;
+}
+
+.doc-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.doc-preview-card {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.doc-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-glass);
+  box-shadow: var(--shadow-md);
+}

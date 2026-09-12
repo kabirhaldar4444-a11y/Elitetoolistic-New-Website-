@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build outputs
+dist/
+build/
+
+# Temporary and local files
+.DS_Store
+*.zip
+*.log
+.env
+.env.local
+
+# Scratch temp files
+scratch/
